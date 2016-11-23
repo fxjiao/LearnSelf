@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="词汇"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:id="@+id/word_high"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="高频" />
+
+        <TextView
+            android:id="@+id/word_middle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="中频" />
+
+        <TextView
+            android:id="@+id/word_low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="低频" />
+
+        <TextView
+            android:id="@+id/word_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="生词本" />
+    </LinearLayout>
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/letter_a"
+                style="@style/may_word_letter"
+                android:text="A" />
+
+            <TextView
+                android:id="@+id/letter_b"
+                style="@style/may_word_letter"
+                android:text="B" />
+
+            <TextView
+                android:id="@+id/letter_c"
+                style="@style/may_word_letter"
+                android:text="C" />
+
+            <TextView
+                android:id="@+id/letter_d"
+                style="@style/may_word_letter"
+                android:text="D" />
+
+            <TextView
+                android:id="@+id/letter_e"
+                style="@style/may_word_letter"
+                android:text="E" />
+
+            <TextView
+                android:id="@+id/letter_f"
+                style="@style/may_word_letter"
+                android:text="F" />
+
+            <TextView
+                android:id="@+id/letter_g"
+                style="@style/may_word_letter"
+                android:text="G" />
+
+
+            <TextView
+                android:id="@+id/letter_h"
+                style="@style/may_word_letter"
+                android:text="H" />
+
+            <TextView
+                android:id="@+id/letter_i"
+                style="@style/may_word_letter"
+                android:text="I" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/letter_j"
+                style="@style/may_word_letter"
+                android:text="J" />
+
+            <TextView
+                android:id="@+id/letter_k"
+                style="@style/may_word_letter"
+                android:text="K" />
+
+            <TextView
+                android:id="@+id/letter_l"
+                style="@style/may_word_letter"
+                android:text="L" />
+
+            <TextView
+                android:id="@+id/letter_m"
+                style="@style/may_word_letter"
+                android:text="M" />
+
+            <TextView
+                android:id="@+id/letter_n"
+                style="@style/may_word_letter"
+                android:text="N" />
+
+            <TextView
+                android:id="@+id/letter_o"
+                style="@style/may_word_letter"
+                android:text="O" />
+
+            <TextView
+                android:id="@+id/letter_p"
+                style="@style/may_word_letter"
+                android:text="P" />
+
+            <TextView
+                android:id="@+id/letter_q"
+                style="@style/may_word_letter"
+                android:text="Q" />
+
+            <TextView
+                android:id="@+id/letter_r"
+                style="@style/may_word_letter"
+                android:text="R" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/letter_s"
+                style="@style/may_word_letter"
+                android:text="S" />
+
+            <TextView
+                android:id="@+id/letter_t"
+                style="@style/may_word_letter"
+                android:text="T" />
+
+            <TextView
+                android:id="@+id/letter_u"
+                style="@style/may_word_letter"
+                android:text="U" />
+
+            <TextView
+                android:id="@+id/letter_v"
+                style="@style/may_word_letter"
+                android:text="V" />
+
+            <TextView
+                android:id="@+id/letter_w"
+                style="@style/may_word_letter"
+                android:text="W" />
+
+            <TextView
+                android:id="@+id/letter_x"
+                style="@style/may_word_letter"
+                android:text="X" />
+
+            <TextView
+                android:id="@+id/letter_y"
+                style="@style/may_word_letter"
+                android:text="Y" />
+
+            <TextView
+                android:id="@+id/letter_z"
+                style="@style/may_word_letter"
+                android:text="Z" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="词组"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/tx_essay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="写作"
+        android:textSize="14sp"/>
+
+
+</LinearLayout>

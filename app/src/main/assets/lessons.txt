@@ -1,0 +1,126 @@
+高频,high
+中频,middle
+低频,low
+
+
+
+                                                                // ------------------------首页模块 --------------------
+                                                               // 迭代1111
+                                                               /**首页_点击【公积金贷款】*/
+                                                               public static final String SY_LOAN_AMOUNT = "sy-loan-amount";
+                                                               /**首页_点击【安居助手】*/
+                                                               public static final String SY_HOME_HELP = "sy-home-help";
+                                                               /**首页_点击【分期购】*/
+                                                               public static final String SY_EASY_PAY = "sy-easy-pay";
+                                                               /**首页_点击【热门帖子】-区分帖子id*/
+                                                               public static final String SY_POST_+帖子ID = "sy-post-";
+                                                               /**banner位详情页-点击分享-区分id*/
+                                                               public static final String SY_BANNER_SHARE_BAMMERID = "sy-banner-share-bammerID";
+                                                               /**banner位详情页-点击微信-区分id*/
+                                                               public static final String SY_BANNER_SHAREWEIXIN_BAMMERID = "sy-banner-shareweixin-bammerID";
+                                                               /**banner位详情页-点击朋友圈-区分id*/
+                                                               public static final String SY_BANNER_SHAREFRIEND_BAMMERID = "sy-banner-sharefriend-bammerID";
+                                                               /**首页_点击密蜜头条-区分类型及头条ID(状态类)*/
+                                                               public static final String SY_MMHEADLINE_+头条ID = "sy-mmheadline-";
+
+
+                                                               // ------------------------电商模块 --------------------
+                                                               // 迭代1111
+                                                               /**商品详情页_分享弹窗_点击社交圈_区分商品id*/
+                                                               public static final String ESHOP_GOODS_SHARE_+商品ID = "eshop-goods-share-";
+                                                               /**分享至社交圈_点击发送_区分商品id*/
+                                                               public static final String ESHOP_GOODS_SHARE_SJQ_+商品ID = "eshop-goods-share-sjq-";
+                                                               /**京东商品详情页_点击弹窗_点击社交圈_区分商品id*/
+                                                               public static final String ESHOP_JD_GOODS_SHARE_+商品ID = "eshop-jd-goods-share-";
+                                                               /**分享至社交圈_点击发送_区分京东商品id*/
+                                                               public static final String ESHOP_JD_GOODS_SHARE_SJQ_+商品ID = "eshop-jd-goods-share-sjq-";
+                                                               /**京东特供_点击搜索框*/
+                                                               public static final String ESHOP_JD_SEARCH = "eshop-jd-search";
+
+                                                               // ------------------------友邻模块 --------------------
+                                                               // 迭代1111
+                                                               /**社交圈_点击商品分享_区分商品id*/
+                                                               public static final String SJ_GOODS_SHARE_+商品ID = "sj-goods-share-";
+                                                               /**社交圈_点击电商专题分享_区分专题id*/
+                                                               public static final String SJ_OBJ_SHARE_SJQ_+专题ID = "sj-obj-share-sjq-";
+                                                               /**社交圈_点击京东商品分享_区分京东商品id*/
+                                                               public static final String SJ_JD_GOODS_SHARE_+商品ID = "sj-jd-goods-share-";
+                                                               /**社交圈_点击京东专题分享_区分京东专题id*/
+                                                               public static final String SJ_JD_OBJ_SHARE_SJQ_+专题ID = "sj-jd-obj-share-sjq-";
+
+                                                                        // ------------------------更多模块 --------------------
+                                                                        // 迭代1111/**更多_点击【密蜜精选】*/
+                                                                        public static final String MORE_MM_CHOICENESS = "more-mm-choiceness";
+                                                                        /**更多_点击【京东特供】*/
+                                                                        public static final String MORE_JD_SHOP = "more-jd-shop";
+                                                                        /**更多_点击【分期购】*/
+                                                                        public static final String MORE_EASY_PAY = "more-easy-pay";
+                                                                        /**更多_点击【安居助手】*/
+                                                                        public static final String MORE_HOME_HELP = "more-home-help";
+                                                                        /**更多_点击【公积金贷款】*/
+                                                                        public static final String MORE_LOAN_AMOUNT = "more-loan-amount";
+
+
+                                                                        // ------------------------发现模块 --------------------
+                                                                        // 迭代1111/**发现_点击【密蜜停车】*/
+                                                                        public static final String FIND_MMSTOP = "find-mmstop";
+                                                                        /**发现_点击【公积金贷款】*/
+                                                                        public static final String FIND_LOAN_AMOUNT = "find-loan-amount";
+                                                                        /**发现_点击【安居助手】*/
+                                                                        public static final String FIND_HOME_HELP = "find-home-help";
+                                                                        /**发现_点击【分期购】*/
+                                                                        public static final String FIND_EASY_PAY = "find-easy-pay";
+
+
+                                                                        // ------------------------安居助手模块 --------------------
+                                                                        // 迭代1111/**点击【参与预售】-H5*/
+                                                                        public static final String HOME_HELP_BUY_H5 = "home-help-buy-h5";
+                                                                        // ------------------------公积金贷款模块 --------------------
+                                                                        // 迭代1111/**引导页_点击【立即申请】*/
+                                                                        public static final String LOAN_GUIDE_APPLY = "loan-guide-apply";
+                                                                        /**引导页_点击【贷款试算】*/
+                                                                        public static final String LOAN_GUIDE_CALCULATE = "loan-guide-calculate";
+                                                                        /**试算页_点击【点击试算】-H5*/
+                                                                        public static final String LOAN_SSY_CALCULATE = "loan-ssy-calculate";
+                                                                        /**试算页_点击【立即申请】-H5*/
+                                                                        public static final String LOAN_SSY_APPLY = "loan-ssy-apply";
+                                                                        /**申请页_点击【提交申请】*/
+                                                                        public static final String LOAN_APPLY_ENTRY = "loan-apply-entry";
+                                                                        /**申请详情页_点击【取消申请】*/
+                                                                        public static final String LOAN_APPLY_CANCEL = "loan-apply-cancel";
+
+
+                                                                        // ------------------------服务模块 --------------------
+                                                                        // 迭代1111/**密蜜商圈_密蜜商圈首页PV(状态类)*/
+                                                                        public static final String SY_SQSQ_CLICK = "sy-sqsq-click";
+                                                                        /**密蜜商圈_密蜜商圈首页_点击我的代金券*/
+                                                                        public static final String SQSQ_MY_VOUCHER = "sqsq-my-voucher";
+                                                                        /**密蜜商圈_密蜜商圈首页_点击广告banner（区分bannerID）*/
+                                                                        public static final String SQSQ_BANNER_BANNERID = "sqsq-banner-bannerID";
+                                                                        /**密蜜商圈_密蜜商圈首页_点击餐饮*/
+                                                                        public static final String SQSQ_REPAST = "sqsq-repast";
+                                                                        /**密蜜商圈_密蜜商圈首页_点击便利店*/
+                                                                        public static final String SQSQ_DIME_STORE = "sqsq-dime-store";
+                                                                        /**密蜜商圈_密蜜商圈首页_点击休闲娱乐*/
+                                                                        public static final String SQSQ_ENTERTAINMENT = "sqsq-entertainment";
+                                                                        /**密蜜商圈_密蜜商圈首页_点击全部商户*/
+                                                                        public static final String SQSQ_ALL_MERCHANT = "sqsq-all-merchant";
+                                                                        /**密蜜商圈_密蜜商圈首页_点击更多优惠*/
+                                                                        public static final String SQSQ_MORE_PRIVILEGE = "sqsq-more-privilege";
+                                                                        /**密蜜商圈_密蜜商圈首页_点击代金券推荐位1/2/3-代金券类型ID*/
+                                                                        public static final String SQSQ_RECOM_VOUCHER_+代金券类型ID = "sqsq-recom-voucher-";
+                                                                        /**密蜜商圈_代金券列表_点击代金券（区分代金券类型ID）*/
+                                                                        public static final String SQSQ_LIST_VOUCHER_+代金券类型ID = "sqsq-list-voucher-";
+                                                                        /**密蜜商圈_代金券详情_点击分享-区分代金券类型ID*/
+                                                                        public static final String SQSQ_SHARE_VOUCHER_+代金券类型ID = "sqsq-share-voucher-";
+                                                                        /**密蜜商圈_商户详情_点击写评价*/
+                                                                        public static final String SQSQ_MERCHANT_COMMENT = "sqsq-merchant-comment";
+                                                                        /**密蜜商圈_商户详情_点击传图片*/
+                                                                        public static final String SQSQ_MERCHANT_LOADMAP = "sqsq-merchant-loadmap";
+
+
+                                                                        // ------------------------物业缴费模块 --------------------
+                                                                       // 迭代1111/**账单详情-查看电子发票*/
+                                                                       public static final String HXRS_BILL_CHAECK_INVOICE = "hxrs-bill-chaeck-invoice";
+                                                                       /**账单详情-开具电子发票*/
+                                                                       public static final String HXRS_BILL_INVOICING = "hxrs-bill-invoicing";

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_tran">#6e000000</color>
+    <color name="gray">#FFC2C2C2</color>
+    <color name="main_green">#2bae2b</color>
+    <color name="main_green_press">#66ae72</color>
+    <color name="main_bg">#ececec</color>
+    <color name="phone_plan_num">#6f6f6f</color>
+    <color name="main_title">#4a4a4a</color>
+    <color name="tel_name">#758d9a</color>
+    <color name="btn_orange_normal">#dc4e2e</color>
+    <color name="btn_orange_press">#dc805b</color>
+    <color name="btn_msg_item">#f9f5f9</color>
+    <color name="item_downed">#fcdcb0</color>
+    <color name="item_read">#d9d6d3</color>
+</resources>

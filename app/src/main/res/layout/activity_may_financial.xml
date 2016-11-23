@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <TextView
+       android:id="@+id/financial_one"
+       android:layout_width="fill_parent"
+       android:layout_height="40dp"
+       android:layout_marginTop="40dp"
+       android:text="@string/financial_part_one"
+       android:gravity="center"
+       />
+
+    <TextView
+        android:id="@+id/financial_two"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/financial_part_two"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/financial_three"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/financial_part_one"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/financial_four"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/financial_part_four"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/financial_five"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/financial_part_five"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/financial_six"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/financial_part_six"
+        android:gravity="center"
+        />
+
+
+</LinearLayout>
